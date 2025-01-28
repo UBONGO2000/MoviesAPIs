@@ -44,4 +44,40 @@ public class Movie {
         this.backdrops = backdrops;
         this.genres = genres;
     }
+
+    public ObjectId getId() {
+        return id;
+    }
+
+    public String getImdbId() {
+        return imdbId;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getReleaseDate() {
+        return releaseDate;
+    }
+
+    public String getTrailerLink() {
+        return trailerLink;
+    }
+
+    public String getPoster() {
+        return poster;
+    }
+
+    public List<String> getGenres() {
+        return genres;
+    }
+
+    public List<String> getBackdrops() {
+        return backdrops;
+    }
+
+    public List<Review> getReviewsIds() {
+        return reviewsIds;
+    }
 }
